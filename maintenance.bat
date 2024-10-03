@@ -31,7 +31,7 @@ goto menu
 :app_updates
 cls
 echo Getting App Updates...
-start powershell -ExecutionPolicy Bypass -File "%~dp0Scripts\Winget-Update-Apps.ps1"
+start "" "%~dp0Scripts\Winget Helper\winget-helper.bat" 
 goto menu
 
 :temp_clean
